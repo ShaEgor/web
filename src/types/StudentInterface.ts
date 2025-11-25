@@ -1,10 +1,16 @@
+import type GroupInterface from './GroupInterface';
+
 interface StudentInterface {
   id: number;
-  first_name: string;
-  last_name: string;
-  middle_name: string;
-  groupid: number;
-  isDeleted: boolean;
+  uuid?: string;
+  firstName: string;
+  lastName: string;
+  middleName: string;
+  contacts?: string;
+  groupId: number;
+  isDeleted?: boolean;
+  isNew?: boolean;
+  group?: GroupInterface;
 };
 
 export default StudentInterface;

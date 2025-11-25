@@ -1,5 +1,5 @@
-import Students from '@/components/Students/Students';
-import Student from '@/components/Students/Student/Student';
+import Students from '@/components/Students/StudentItem';
+import Student from '@/components/Students/StudentItem/Student';
 import Page from '@/components/layout/Page/Page';
 import { type Metadata } from 'next/types';
 
